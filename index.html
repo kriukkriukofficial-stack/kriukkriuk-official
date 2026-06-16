@@ -23,15 +23,10 @@
 body { font-family: 'Poppins', sans-serif; overflow-x: hidden; scroll-behavior: smooth; }
 .font-luckiest { font-family: 'Luckiest Guy', cursive; }
 
-  @keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
-  100% { transform: translateY(0px); }
-}
-
 .naik-turun {
   animation: float 3s ease-in-out infinite;
 }
+  
 .bg-gradient-brand {
 background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
 }
@@ -56,6 +51,11 @@ animation: floating 3s ease-in-out infinite;
 0% { transform: translateY(0px); }
 50% { transform: translateY(-15px); }
 100% { transform: translateY(0px); }
+}
+   @keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
 }
 
 .shopee-btn {

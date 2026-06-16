@@ -9,9 +9,9 @@
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
 <!-- Animate CSS -->
-<a href="index.html" class="flex items-center">
-  <img src="logo.jpeg" alt="Logo Kriukkriuk" class="h-12 w-auto">
-</a>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
 <style>
 :root {
@@ -23,6 +23,15 @@
 body { font-family: 'Poppins', sans-serif; overflow-x: hidden; scroll-behavior: smooth; }
 .font-luckiest { font-family: 'Luckiest Guy', cursive; }
 
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+.floating-logo {
+    animation: float 3s ease-in-out infinite;
+}
+  
 .bg-gradient-brand {
 background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
 }
@@ -70,7 +79,7 @@ transform: translateY(4px);
 <a href="#produk" class="hover:text-orange-500 transition">Katalog</a>
 <a href="#tentang" class="hover:text-orange-500 transition">Tentang Kami</a>
 <a href="https://id.shp.ee/ysPYSRjA" target="_blank" class="shopee-btn text-white px-6 py-2 rounded-full flex items-center gap-2 text-sm">
-<i class="fa-solid fa-bag-shopping"></i> BELI DI SHOPEE
+<i class="fa-solid fa-bag-shopping"></i> BELI DI SHOPPEE
 </a>
 </div>
 </div>
